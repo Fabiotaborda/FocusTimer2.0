@@ -1,0 +1,5 @@
+export const backgroundSound = document.getElementById('toggleBackgroundSound')
+export const tree = document.querySelector('.ph-tree')
+export const cloud = document.querySelector('.ph-cloud-snow')
+export const store = document.querySelector('.ph-storefront')
+export const flame = document.querySelector('.ph-flame')

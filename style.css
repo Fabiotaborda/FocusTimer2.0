@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+
+body {
+    background: #FFF;
+}
+
+#app {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+#main {
+    justify-self: end;
+}
+
+#timer {
+    color: #323238;
+    text-align: center;
+    font-size: 12.6rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#controls {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+#controls button {
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border: 3px solid black;
+}
+
+#toggleBackgroundSound {
+    display: grid;
+    grid-template-columns: 138px 138px;
+    gap: 32px;
+    padding-left: 19rem;
+}
+
+#toggleBackgroundSound button {
+    width: 138px;
+    height: 152px;
+    background: #E1E1E6;
+}
+
+#toggleBackgroundSound .click{
+    background: #02799D;
+    color: #FFF;
+}
+
+.ph-play,
+.ph-stop {
+    font-size: 2.5rem;
+}
+.ph-plus,
+.ph-minus{
+    font-size: 4rem;
+}
+
+.ph-tree,
+.ph-cloud-snow,
+.ph-storefront,
+.ph-flame {
+    font-size: 5rem;
+    border-radius: 30px;
+    border: none;
+}
